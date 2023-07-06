@@ -4,7 +4,7 @@ read N
 sum=0
 for ((i=1;i<=N;++i))
 do
-	read num
-	sum=$((sum+num))
+    read num
+    sum=$((sum+num))
 done
 echo "The Sum is " $sum
